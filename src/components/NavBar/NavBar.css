@@ -1,0 +1,36 @@
+.logo{
+    text-decoration: none;
+    color: #a31fa3;
+    font-size: 22px;
+}
+
+nav{
+    width: 100%;
+    background-color: #fdf8f2;
+    min-height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem;
+    box-shadow: 0 10px 25px #00000015;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    gap: 1rem;
+}
+
+.menu-page{
+    color: #0d000d;
+    font-size: 16px;
+    list-style-type: none;
+    cursor: pointer;
+    transition: color 0.4s;
+    text-decoration: none;
+}
+
+.menu-page:hover{
+    color: #a31fa3;
+}
